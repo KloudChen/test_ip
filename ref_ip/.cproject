@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.settings">
+        		
+        <cconfiguration id="cofluent.managedbuild.config.gnu.mingw.exe.release.1699748808">
+            			
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cofluent.managedbuild.config.gnu.mingw.exe.release.1699748808" moduleId="org.eclipse.cdt.core.settings" name="ref_ipAppBuild">
+                				
+                <externalSettings/>
+                				
+                <extensions>
+                    					
+                    <extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="com.cofluent.studio.mingw.errorparser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    					
+                    <extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    				
+                </extensions>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                				
+                <configuration artifactName="ref_ipApp" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" description="ref_ipApp - MinGW 9.2.0 - Windows 64-bit - Accellera" id="cofluent.managedbuild.config.gnu.mingw.exe.release.1699748808" name="ref_ipAppBuild" parent="cofluent.managedbuild.config.gnu.mingw.exe.release">
+                    					
+                    <folderInfo id="cofluent.managedbuild.config.gnu.mingw.exe.release.1699748808." name="/" resourcePath="">
+                        						
+                        <toolChain id="cofluent.managedbuild.toolchain.gnu.mingw.exe.release.1319072925" name="CoFluent MinGW Release Tool-Chain" superClass="cofluent.managedbuild.toolchain.gnu.mingw.exe.release">
+                            							
+                            <targetPlatform id="cdt.managedbuild.target.gnu.platform.mingw.exe.release.1322047576" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.mingw.exe.release"/>
+                            							
+                            <builder buildPath="/ref_ip/release/ref_ipAppBuild" id="com.cofluent.studio.internal.generators.builder.exe.1654979803" managedBuildOn="true" name="CoFluent MinGW Makefile Generator.CoFluent MinGW Release Configuration" parallelBuildOn="true" parallelizationNumber="optimal" stopOnErr="false" superClass="com.cofluent.studio.internal.generators.builder.exe"/>
+                            							
+                            <tool commandLinePattern="${COMMAND} ${INPUTS} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT}" id="cdt.managedbuild.tool.gnu.assembler.mingw.exe.release.1085469406" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.exe.release">
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.assembler.input.464367186" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool id="cdt.managedbuild.tool.gnu.archiver.mingw.base.1877268187" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.base"/>
+                            							
+                            <tool commandLinePattern="${COMMAND} ${INPUTS} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT}" id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release.324401978" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release">
+                                								
+                                <option id="gnu.cpp.compiler.mingw.exe.release.option.optimization.level.300279808" superClass="gnu.cpp.compiler.mingw.exe.release.option.optimization.level" value="gnu.cpp.compiler.optimization.level.more" valueType="enumerated"/>
+                                								
+                                <option id="gnu.cpp.compiler.mingw.exe.release.option.debugging.level.228182187" superClass="gnu.cpp.compiler.mingw.exe.release.option.debugging.level" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+                                								
+                                <option id="gnu.cpp.compiler.option.include.paths.853845228" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ref_ip/gen-sysc/ref_ipApp/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${scl_core_loc:/include/cofluent}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${scl_core_loc:/include/systemc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/external/include}&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.cpp.compiler.option.preprocessor.def.1069341329" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="COFS_MODEL_TYPE_APPLICATION_MODELING=COFS_MODEL_TYPE_APPLICATION_MODELING"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="COFS_SOURCE_CODEGEN_SYSTEMC=COFS_SOURCE_CODEGEN_SYSTEMC"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.cpp.compiler.option.other.other.758162532" superClass="gnu.cpp.compiler.option.other.other" value="-fmessage-length=100 -frtti -fexceptions -mthreads -Wno-deprecated -Wdeprecated-declarations -Wsign-compare -w" valueType="string"/>
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.261907151" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool command="g++" commandLinePattern="${COMMAND} ${INPUTS} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT}" id="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.134462409" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release">
+                                								
+                                <option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.mingw.exe.release.option.optimization.level.1235114858" superClass="gnu.c.compiler.mingw.exe.release.option.optimization.level" value="gnu.c.optimization.level.more" valueType="enumerated"/>
+                                								
+                                <option id="gnu.c.compiler.mingw.exe.release.option.debugging.level.1173145509" superClass="gnu.c.compiler.mingw.exe.release.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+                                								
+                                <option id="gnu.c.compiler.option.include.paths.334146434" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/ref_ip/gen-sysc/ref_ipApp/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${scl_core_loc:/include/cofluent}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${scl_core_loc:/include/systemc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/external/include}&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.c.compiler.option.misc.other.315714610" superClass="gnu.c.compiler.option.misc.other" value="-fmessage-length=100 -fexceptions -mthreads -Wno-deprecated" valueType="string"/>
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1383887305" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+                                							
+                            </tool>
+                            							
+                            <tool commandLinePattern="${COMMAND} ${INPUTS} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT}" id="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.release.1254103686" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.release"/>
+                            							
+                            <tool commandLinePattern="${COMMAND} ${INPUTS} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT}" id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.release.1005805466" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.release">
+                                								
+                                <option id="gnu.cpp.link.option.paths.1079125303" superClass="gnu.cpp.link.option.paths" valueType="libPaths">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${scl_accellera_loc:/lib/mingw-gcc-9.2.0/}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${mingw_loc:/mingw-gcc-9.2.0}/lib&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/external/lib}&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.cpp.link.option.libs.1833398225" superClass="gnu.cpp.link.option.libs" valueType="libs">
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="cofscl"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="systemc"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="coflm"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="ws2_32"/>
+                                    								
+                                </option>
+                                								
+                                <option id="gnu.cpp.link.option.flags.543249662" superClass="gnu.cpp.link.option.flags" value="-mthreads" valueType="string"/>
+                                								
+                                <option id="gnu.cpp.link.option.userobjs.1752862354" superClass="gnu.cpp.link.option.userobjs" valueType="userObjs">
+                                    									
+                                    <listOptionValue builtIn="false" value="${mingw_loc:/lmgr11.dll}"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1389643385" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+                                    									
+                                    <additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+                                    									
+                                    <additionalInput kind="additionalinput" paths="$(LIBS)"/>
+                                    								
+                                </inputType>
+                                							
+                            </tool>
+                            						
+                        </toolChain>
+                        					
+                    </folderInfo>
+                    					
+                    <sourceEntries>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="external"/>
+                        					
+                    </sourceEntries>
+                    				
+                </configuration>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+            		
+        </cconfiguration>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.pathentry"/>
+    	
+    <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+        		
+        <project id="ref_ip.cofluent.managedbuild.target.gnu.mingw.exe.295804726" name="CoFluent MinGW Executable" projectType="cofluent.managedbuild.target.gnu.mingw.exe"/>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="scannerConfiguration">
+        		
+        <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+        		
+        <scannerConfigBuildInfo instanceId="cofluent.managedbuild.config.gnu.mingw.exe.release.1699748808;cofluent.managedbuild.config.gnu.mingw.exe.release.1699748808.;cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release.324401978;cdt.managedbuild.tool.gnu.cpp.compiler.input.261907151">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="cofluent.managedbuild.config.gnu.mingw.exe.release.1699748808;cofluent.managedbuild.config.gnu.mingw.exe.release.1699748808.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.134462409;cdt.managedbuild.tool.gnu.c.compiler.input.1383887305">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+    
+</cproject>
